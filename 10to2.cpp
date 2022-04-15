@@ -2,15 +2,23 @@
 using namespace std;
                     
                 
-int main()
-{
-    int n = 12;
- 
-    for (int j = 0; j <= n; j++) {
-        for (int i=0; i <=j ; i++) {
-            int k;
-        }
+int count_d(int a) {
+    int count = 0;
+    while (a > 0) {
+        count += a & 1;
+        a >>= 1;
+    }
+    return count;
+}
+
+int main() {
+    while (1)
+    {
+        /* code */
+        int cc;
+        std::cin>>cc;
+        printf("<%d>\n", count_d(cc));
     }
     
-    return 0;
-}   
+    
+}

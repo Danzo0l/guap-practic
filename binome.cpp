@@ -13,7 +13,6 @@ unsigned long long fack(int a) {
 unsigned long long binome(int n, int k) {
 
     unsigned long long c = fack(n) / (fack(k) * fack(n-k));
-
     return c;
 }
 
