@@ -11,14 +11,3 @@ int count_d(int a) {
     return count;
 }
 
-int main() {
-    while (1)
-    {
-        /* code */
-        int cc;
-        std::cin>>cc;
-        printf("<%d>\n", count_d(cc));
-    }
-    
-    
-}

@@ -7,9 +7,5 @@ int main() {
         int a;
         scanfs();
         printf("Answer: %d", w[a]);
-    }
-    
-    
-
-    
+    }  
 }
