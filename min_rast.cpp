@@ -42,10 +42,10 @@ int main() {
                 
             }
             count++;
-            printf("<%d,%d>", arr[i], arr[j]);
-            printf(" %d, ", buf);
-            printf("%d, ", count_d(arr[i]));
-            printf("%d\n", count_d(arr[j]));
+            // printf("<%d,%d>", arr[i], arr[j]);
+            // printf(" %d, ", buf);
+            // printf("%d, ", count_d(arr[i]));
+            // printf("%d\n", count_d(arr[j]));
 
         }
     }

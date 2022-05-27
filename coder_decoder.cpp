@@ -31,7 +31,7 @@ int decoder(int message) {
             out = i;
             par = ras[i];
         }
-        printf("<<%d>>", ras[i]);
+        // printf("<<%d>>", ras[i]);
         
     }
     return out;
@@ -41,15 +41,17 @@ int main() {
     int m;
     int e;
 
+    std::cout << "Enter n: ";
     std::cin >> m;
+    std::cout << "Enter e: ";
     std::cin >> e;
 
-    int a =   coder(m);
+    int a = coder(m);
     int b = chanel(a, e);
 
     printf("a=%d = %x\n", m, a);
-    printf("b=%d\n", b);
-    printf("\ncode=%d\n", decoder(b));
+    printf("b=%d", b);
+    printf("\nn=%d\n", decoder(b));
 
 }
     
